@@ -1,0 +1,61 @@
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.main {
+  padding: 20px;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#mealResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.meal-card {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.meal-card img {
+  width: 100%;
+  height: auto;
+}
+
+.meal-info {
+  padding: 10px;
+}
+
+#showAllBtn {
+  margin: 20px auto;
+  display: block;
+}
